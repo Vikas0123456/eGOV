@@ -1,0 +1,135 @@
+exports.MESSAGES = {
+  BAD_REQUEST: "Parameters not found",
+  SERVER_ERROR: "Internal server error",
+  DETAILS_NOT_FOUND: "Details Not Found",
+  VALIDATION: "Validation is not valid",
+  AUTH_REQUIRE: "Authentication token required",
+  INVALID_TOKEN: "Authentication token is not valid",
+  VALID_TOKEN: "Authentication token is valid",
+  BODY: "Please enter details",
+  UPDATE_NOT: "Data not updated",
+  UNAUTHORIZED_REQUEST: "You are not authorized for current action",
+  EMPTY_PAYLOAD: "Payload is empty",
+  DATA_NOT_FETCH: "Data not fetched",
+  ID_NOT_FOUND: "Id not found",
+  USER_ID_NOT_FOUND:"user not found",
+  APPLICATION: {
+    APPLICATION_ID_NOT_FOUND:
+      "Please enter application Id.",
+    DOCUMENT_FETCH_SUCCESS:
+      "Required document for marriage certificate fetched successfully",
+    DOCUMENT_FETCH_FAILED:
+      "Failed to fetch required document for marriage certificate ",
+    ADDED_SUCCESS: "Marriage certificate application create successfully",
+    ADDED_FAILED: "Failed to create marriage certificate application",
+    ADDED_LOG_SUCCESS: "Marriage certificate log create successfully",
+    ADDED_LOG_FAILED: "Failed to create marriage certificate log",
+    UPDATE_SUCCESS: "Marriage certificate application update successfully",
+    RENEW_CERTIFICATE: "Your certificate renew successfully",
+    UPDATE_FAILED: "Failed to update marriage certificate application",
+    SUCCESS: "Meeting Sucess",
+    APPLICATION_ID_NOT_ENTER: "Please enter application id",
+    FETCH_SUCCESS: "Application certificate data fetched successfully",
+    FETCH_FAILED: "Failed to fetch marriage certificate data ",
+    LOG_FETCH_SUCCESS: "Application log data fetched successfully",
+    MEETING_LINK: "Meeting link sent successfully",
+    SETTING_FETCH_SUCCESS: "General setting data fetched successfully",
+    LOG_FETCH_FAILED: "Failed to fetch application log data ",
+    ADDED_REQUESTED_DOC_SUCCESS:
+      "Marriage certificate requested document create successfully",
+    ADDED_REQUESTED_DOC_FAILED:
+      "Failed to create requested document for application",
+    UPDATE_REQUESTED_DOC_SUCCESS:
+      "Marriage certificate requested document update successfully",
+    UPDATE_REQUESTED_DOC_FAILED:
+      "Failed to update requested document for application",
+    REQUESTED_DOC_ID_NOT_FOUND:
+      "Please enter document id to update required documents ",
+    APPLICATION_STATUS: "Application status fetched successfully",
+    WORKFLOW_NOT_FOUND:"Workflow not found for this service",
+  },
+};
+
+exports.USER_ROLES = {
+  USER: "User",
+  SUPER_ADMIN: "Super Admin",
+  ADMIN: "Admin",
+  CORE_USER: "Core User",
+  DEPARTMENT_ADMIN: "Department Admin",
+  DEPARTMENT_AGENT: "Department Agent",
+};
+
+exports.STATUS_CODES = {
+  // 1XX INFORMATIONAL
+  CONTINUE: 100,
+  SWITCHING_PROTOCOLS: 101,
+  PROCESSING: 102,
+  EARLY_HINTS: 103,
+
+  // 2XX SUCCESS
+  SUCCESS: 200,
+  CREATED: 201,
+  ACCEPTED: 202,
+  NON_AUTHORITATIVE_INFORMATION: 203,
+  NO_CONTENT: 204,
+  RESET_CONTENT: 205,
+  PARTIAL_CONTENT: 206,
+  MULTI_STATUS: 207,
+  ALREADY_REPORTED: 208,
+  IM_USED: 226,
+
+  // 3XX REDIRECTION
+  MULTIPLE_CHOICES: 300,
+  MOVED_PERMANENTLY: 301,
+  FOUND: 302,
+  SEE_OTHER: 303,
+  NOT_MODIFIED: 304,
+  USE_PROXY: 305,
+  TEMPORARY_REDIRECT: 307,
+  PERMANENT_REDIRECT: 308,
+
+  // 4XX CLIENT ERROR
+  BAD_REQUEST: 400,
+  UNAUTHORIZED: 401,
+  PAYMENT_REQUIRED: 402,
+  FORBIDDEN: 403,
+  NOT_FOUND: 404,
+  NOT_ALLOWED: 405,
+  NOT_ACCEPTABLE: 406,
+  PROXY_AUTHENTICATION_REQUIRED: 407,
+  REQUEST_TIMEOUT: 408,
+  CONFLICT: 409,
+  GONE: 410,
+  LENGTH_REQUIRED: 411,
+  PRECONDITION_FAILED: 412,
+  PAYLOAD_TOO_LARGE: 413,
+  URI_TOO_LONG: 414,
+  UNSUPPORTED_MEDIA_TYPE: 415,
+  RANGE_NOT_SATISFIABLE: 416,
+  EXPECTATION_FAILED: 417,
+  UNPROCESSABLE_ENTITY: 422,
+  VALIDATION_ERROR: 422,
+  NOT_VALID_DATA: 422,
+  LOCKED: 423,
+  FAILED_DEPENDENCY: 424,
+  UNORDERED_COLLECTION: 425,
+  UPGRADE_REQUIRED: 426,
+  PRECONDITION_REQUIRED: 428,
+  TOO_MANY_REQUESTS: 429,
+  REQUEST_HEADER_FIELDS_TOO_LARGE: 431,
+  UNAVAILABLE_FOR_LEGAL_REASONS: 451,
+
+  // 5XX SERVER ERROR
+  SERVER_ERROR: 500,
+  NOT_IMPLEMENTED: 501,
+  BAD_GATEWAY: 502,
+  SERVICE_UNAVAILABLE: 503,
+  GATEWAY_TIMEOUT: 504,
+  HTTP_VERSION_NOT_SUPPORTED: 505,
+  VARIANT_ALSO_NEGOTIATES: 506,
+  INSUFFICIENT_STORAGE: 507,
+  LOOP_DETECTED: 508,
+  BANDWIDTH_LIMIT_EXCEEDED: 509,
+  NOT_EXTENDED: 510,
+  NETWORK_AUTHENTICATION_REQUIRED: 511,
+};

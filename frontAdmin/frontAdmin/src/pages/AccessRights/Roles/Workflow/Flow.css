@@ -1,0 +1,20 @@
+.flow-container {
+  background-color: #f0fdfa;
+}
+.popup {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  z-index: 10;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.popup button {
+  margin: 0 10px;
+  padding: 5px 15px;
+  cursor: pointer;
+}

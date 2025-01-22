@@ -1,0 +1,32 @@
+.swiper-pagination button {
+    width: 8px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.swiper-pagination button.active {
+    margin: 0px 5px;
+    background-color: #f99f1e;
+}
+
+.clickable-area-left,
+.clickable-area-right {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    cursor: pointer;
+}
+
+.clickable-area-left {
+    left: 0;
+}
+
+.clickable-area-right {
+    right: 0;
+}

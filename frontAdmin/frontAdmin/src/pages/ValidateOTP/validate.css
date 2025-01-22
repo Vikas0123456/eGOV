@@ -1,0 +1,34 @@
+.bgMain{
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+.bgMain::after{
+    position: absolute;
+    width: 52.5%;
+    height: 100%;
+    content: "";
+    background-color: #fff;
+    left: auto;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 0;
+}
+@media(min-width:992px){
+    .bgMain{
+        background-image: url('../../assets/images/login/login.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+@media(max-width:992px){
+    .bgMain{
+        background-color: #FFFFFF;
+    }
+}
+.formMain{
+    position: relative;
+    z-index: 1;
+}

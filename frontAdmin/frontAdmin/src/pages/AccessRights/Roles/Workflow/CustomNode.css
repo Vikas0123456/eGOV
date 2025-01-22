@@ -1,0 +1,86 @@
+.custom-node-wrapper {
+  position: relative;
+  border: 2px solid transparent;
+  border-radius: 100px;
+  transition: border-color 0.2s;
+}
+
+.custom-node-wrapper.error-node {
+  border-color: red;
+}
+
+
+.custom-node {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 100px;
+  background-image: linear-gradient(rgb(167, 167, 141), lightgreen);
+  width: 200px;
+  height: 200px;
+  z-index: 10;
+  position: relative;
+  cursor: pointer;
+}
+
+.emoji-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: auto;
+}
+
+.info {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.name {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.job {
+  color: #666;
+}
+
+.handle-top,
+.handle-bottom {
+  width: 10px;
+  height: 10px;
+  background-color: teal;
+}
+
+.form-container {
+  position: absolute;
+  top: 110px;
+  left: 10px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  z-index: 20;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container label {
+  margin-bottom: 5px;
+}
+
+.form-container input {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+}
+
+.form-container button {
+  padding: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,31 @@
+
+@-webkit-keyframes DropDownSlides {
+    100% {
+      margin-top: -1px;
+    }
+    0% {
+      margin-top: 8px;
+    }
+  }
+  
+  @keyframes DropDownSlides {
+    100% {
+      margin-top: -1px;
+    }
+    0% {
+      margin-top: 8px;
+    }
+  }
+  .dropdown-notification {
+    -webkit-box-shadow: 0 5px 10px rgba(30, 32, 37, 0.12);
+            box-shadow: 0 5px 10px rgba(30, 32, 37, 0.12);
+    -webkit-animation-name: DropDownSlides;
+            animation-name: DropDownSlides;
+    -webkit-animation-duration: 0.3s;
+            animation-duration: 0.3s;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+    position: absolute;
+    z-index: 1000;
+  }
+ 
